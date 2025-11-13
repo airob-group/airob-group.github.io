@@ -228,7 +228,11 @@
       {% if entry.video and site.enable_video_embedding %}
         <a class="abstract btn btn-sm z-depth-0" role="button">Video</a>
       {% elsif entry.video %}
-        <a href="{{ entry.video }}" class="btn btn-sm z-depth-0" role="button">Video</a>
+        {% if entry.video contains '://' %}
+          <a href="{{ entry.video }}" class="btn btn-sm z-depth-0" role="button">Video</a>
+        {% else %}
+          <a href="{{ entry.video | prepend: site.external_url }}" class="btn btn-sm z-depth-0" role="button">Video</a>
+        {% endif %}
       {% endif %}
       {% if entry.blog %}
         <a href="{{ entry.blog }}" class="btn btn-sm z-depth-0" role="button">Blog</a>
@@ -365,7 +369,11 @@
     {% if entry.video and site.enable_video_embedding %}
       <!-- Hidden video block -->
       <div class="abstract hidden">
-        <div style="text-align: center;">{% include video.liquid path=entry.video class="img-fluid rounded z-depth-1" controls=true %}</div>
+        {% if entry.video contains '://' %}
+          <div style="text-align: center;">{% include video.liquid path=entry.video class="img-fluid rounded z-depth-1" controls=true %}</div>
+        {% else %}
+          <div style="text-align: center;">{% include video.liquid path=entry.video | prepend: site.external_url class="img-fluid rounded z-depth-1" controls=true %}</div>
+        {% endif %}
       </div>
     {% endif %}
   </div>
