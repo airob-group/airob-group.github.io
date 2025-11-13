@@ -18,7 +18,7 @@ function determineGiscusTheme() {
 
   let giscusAttributes = {
     src: "https://giscus.app/client.js",
-    "data-repo": "airob-group/airob-group.github.io",
+    "data-repo": "AIRob-group/airob-group.github.io",
     "data-repo-id": "",
     "data-category": "Comments",
     "data-category-id": "",
