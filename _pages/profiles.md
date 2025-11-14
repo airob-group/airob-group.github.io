@@ -14,15 +14,9 @@ profiles:
     content: about_einstein.md
     image_circular: false # crops the image to make it circular
     more_info: >
-      <p><a href="https://roomfinder.sfu.ca/apps/sfuroomfinder_web/?q=TASC18005">TASC1 8005</a></p>
-      <p>8888 University Drive</p>
-      <p>Buraby, BC, Canada V5A 1S6</p>
   - align: left
     image: AIRob.png
     content: about_einstein.md
     image_circular: false # crops the image to make it circular
     more_info: >
-      <p><a href="https://roomfinder.sfu.ca/apps/sfuroomfinder_web/?q=TASC18005">TASC1 8005</a></p>
-      <p>8888 University Drive</p>
-      <p>Buraby, BC, Canada V5A 1S6</p>
 ---

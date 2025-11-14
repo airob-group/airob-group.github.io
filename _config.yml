@@ -308,6 +308,7 @@ filtered_bibtex_keywords:
     pdf,
     poster,
     preview,
+    projectlink,
     selected,
     slides,
     supp,

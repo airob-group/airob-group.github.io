@@ -2,10 +2,10 @@
 layout: about
 title: About
 permalink: /
-subtitle: Welcome to the website of the Autonomous Intelligent Robotics (AIRob) Lab in the <a href='https://www.sfu.ca/fas/computing.html'>School of Computing Science</a> at <a href='https://www.sfu.ca/'>Simon Fraser University</a>
+subtitle: Welcome to the Autonomous Intelligent Robotics (AIRob) Lab in the <a href='https://www.sfu.ca/fas/computing.html'>School of CS</a> at <a href='https://www.sfu.ca/'>Simon Fraser University</a>
 
 profile:
-  align: right
+  align: left
   image: AIRob.png
   image_circular: false # crops the image to make it circular
   more_info: >
