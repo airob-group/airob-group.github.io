@@ -454,17 +454,24 @@ ninja.data = [{
           window.open("mailto:%68%61%6E%67%6D%61 %61%74 %73%66%75 %64%6F%74 %63%61", "_blank");
         },
       },{
-        id: 'social-inspire',
-        title: 'Inspire HEP',
-        section: 'Socials',
-        handler: () => {
-          window.open("https://inspirehep.net/authors/1010907", "_blank");
-        },
-      },{
         id: 'social-scholar',
         title: 'Google Scholar',
         section: 'Socials',
         handler: () => {
           window.open("https://scholar.google.com/citations?user=KJbsVl8AAAAJ", "_blank");
+        },
+      },{
+        id: 'social-semanticscholar',
+        title: 'Semantic Scholar',
+        section: 'Socials',
+        handler: () => {
+          window.open("https://www.semanticscholar.org/author/9102133", "_blank");
+        },
+      },{
+        id: 'social-youtube',
+        title: 'YouTube',
+        section: 'Socials',
+        handler: () => {
+          window.open("https://youtube.com/@airob-lab", "_blank");
         },
       },];
