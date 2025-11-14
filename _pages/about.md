@@ -1,8 +1,8 @@
 ---
 layout: about
-title: about
+title: About
 permalink: /
-subtitle: <a href='https://www.sfu.ca/fas/computing.html'>School of Computing Science</a> at <a href='https://www.sfu.ca/'>Simon Fraser University</a>. Burnaby, BC, Canada.
+subtitle: Welcome to the website of the Autonomous Intelligent Robotics (AIRob) Lab in the <a href='https://www.sfu.ca/fas/computing.html'>School of Computing Science</a> at <a href='https://www.sfu.ca/'>Simon Fraser University</a>
 
 profile:
   align: right
@@ -27,8 +27,6 @@ latest_posts:
   limit: 3 # leave blank to include all the blog posts
 ---
 
-Write your biography here. Tell the world about yourself. Link to your favorite [subreddit](http://reddit.com). You can put a picture in, too. The code is already in, just name your picture `prof_pic.jpg` and put it in the `img/` folder.
+Our lab conducts cutting-edge research in multi-agent/robot systems, multi-robot coordination, automated planning, AI, robotics, and machine learning. Our mission is to advance the field of robotics through innovative research and practical applications that enhance the capabilities of autonomous systems.
 
-Put your address / P.O. box / other info right below your picture. You can also disable any of these elements by editing `profile` property of the YAML header of your `_pages/about.md`. Edit `_bibliography/papers.bib` and Jekyll will render your [publications page](/al-folio/publications/) automatically.
-
-Link to your social media connections, too. This theme is set up to use [Font Awesome icons](https://fontawesome.com/) and [Academicons](https://jpswalsh.github.io/academicons/), like the ones below. Add your Facebook, Twitter, LinkedIn, Google Scholar, or just disable all of them.
+We are committed to fostering a collaborative and inclusive research environment that encourages creativity, critical thinking, and interdisciplinary collaboration. Join us as we explore the frontiers of robotics and AI to create intelligent systems that can operate autonomously in complex and dynamic environments.
